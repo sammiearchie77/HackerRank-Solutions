@@ -1,6 +1,6 @@
 this.getHeight = function (root) {
 
-    if (root == undefined) {
+    if (root === null) {
         return -1;
     }
     // get the max of the between left and right
